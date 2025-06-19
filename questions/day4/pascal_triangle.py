@@ -1,3 +1,12 @@
+# basic prerequisite:
+#  - slicing
+#  - for...in on lists using index
+
+# cleaner code:
+#  - sum()
+#  - map()
+#  - Compression
+
 # 输入：非负整数，表示需要杨辉三角的前多少行。
 
 # 输出：格式任意，
