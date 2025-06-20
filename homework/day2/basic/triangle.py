@@ -1,9 +1,9 @@
 """
-Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
+分别输入三角形三条边，判断是否能构成三角形
+最短的两条边，边长之和大于第三边
 
-(In this case, all triangles must have surface greater than 0 to be accepted).
-
-Examples:
+提示：列表的 .sort()
+提示：[a, b, c] 构造列表
 
 ```text
 Input -> Output

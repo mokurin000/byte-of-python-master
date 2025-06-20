@@ -3,23 +3,10 @@
 # And we want convert the list into:
 # ["Cecilia", "Linus", "Howard"]
 
-# Implement a function that accepts a `list[str]` and returns the same type
-# Your input might be empty list.
+names = ["CeCiLIa", "lINUs", "HoWArd"]
+cleaned_names = []
 
+for name in names:
+    cleaned_names.append(name.title())
 
-def normalize_names(names: list[str]) -> list[str]:
-    pass
-
-
-if __name__ == "__main__":
-    assert normalize_names(
-        [
-            "CeCiLIa",
-            "lINUs",
-            "HoWArd",
-        ]
-    ) == [
-        "Cecilia",
-        "Linus",
-        "Howard",
-    ], "incorrect implementation!"
+print(cleaned_names)
