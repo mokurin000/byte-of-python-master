@@ -8,3 +8,6 @@
 # 输出: 2004 是闰年
 # 输入: 2000
 # 输出: 2000 不是闰年
+
+def is_leap_year(year: int) -> bool:
+    pass
